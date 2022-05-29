@@ -28,10 +28,10 @@ export class ConsoleWindow implements Window {
         }
         const channel: OutputChannel = {
             append(value: string): void {
-                console.log(name + ': ' + value);
+                //console.log(name + ': ' + value);
             },
             appendLine(line: string): void {
-                console.log(name + ': ' + line);
+                //console.log(name + ': ' + line);
             },
             show(): void {
                 // no-op
